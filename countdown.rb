@@ -10,8 +10,8 @@ end
 
 x=5
 def countdown_with_sleep(x)
-  sleep 1
   while x>1
+    sleep
     x-=1
   end
 end
